@@ -1,0 +1,168 @@
+html{
+box-sizing: border-box;
+font-size:17px;
+
+}
+
+
+:root{
+
+  /* colores del  sitio */
+  --blanca:#ffff;
+  --azul-celeste:#0087ff;
+  --negro-claro:#444;
+  /*tamaño de fuentes */
+  --font-size-nav:0.8em;
+  --font-titulo-hero:min(3em);
+  --font-32:1.2em;
+  --font-logo:1.5em;
+}
+*,
+*::before,
+*::after{
+box-sizing: inherit;
+
+}
+ 
+img{
+min-width:100%;
+height:auto;
+}
+
+body{
+font-family: arial;
+}
+.header{
+position:fixed;
+left:0;
+right:0;
+top:0;
+background-color:var(--negro-claro);
+/* background-color:var(--azul-titulo); */
+
+  /* color:#007099; */
+  }
+
+.center{
+width:90%;
+margin:0 auto;
+display:flex;
+flex-wrap:wrap;
+justify-content:space-around;
+
+}
+
+
+
+.logo{
+width:min(100% 200px);
+margin:0 0 0.2em;
+}
+.logo>a{
+color:var(--blanca);
+text-decoration:none;
+font-size:1.8em;
+text-transform:capitalize;
+word-spacing:0.3em;
+
+}
+
+.logo a>span{
+font-size:var(--font-logo);
+   
+}
+
+
+
+.navegacion{
+display:flex;
+flex-wrap:wrap;
+align-items:center;
+/* background-color:orange; */
+
+}
+
+.navegacion >li{
+list-style:none;
+margin-left:1em;
+margin-right:1em;
+}
+.navegacion li> a{
+color:var(--blanca);
+padding: 0;
+text-decoration:none;
+font-size:var(--font-size-nav);
+font-weight:600;
+padding:0.9em 0;
+}
+
+.navegacion li> a:hover{
+border-top:3px solid #bababa;
+color:#bababa ;
+transition:0.5s;
+}
+  
+
+.hero-img{
+background:url("./cafe.jpg")no-repeat;
+background-origin:content-box; 
+background-position:20% 0;
+background-size:cover;
+background-attachment: fixed;
+width:100%;
+height:700px;
+display:flex;
+align-items:center;
+justify-content: center;
+/* white-space:nowrap; */
+}
+    
+
+.hero-img  h2{
+margin-top:0;
+
+color:var(--azul-celeste);
+font-size:var(--font-titulo-hero);
+font-weight:bold;
+font-style:italic;
+}
+
+
+
+/* main */
+
+
+
+main{
+
+}
+
+.cont-Conocimientos{
+
+width:500px;
+padding-left:0;
+}
+.cont-Conocimientos h2{
+color:var(--negro-claro);
+
+text-align: center;
+padding-top:1em ;
+}
+
+.cont-Conocimientos ul li{
+width:100%;
+list-style:none;
+padding:1em;
+margin-left:0;
+}
+
+.cont-Conocimientos img{
+height:200px;
+object-fit:cover;
+}
+
+.cont-Conocimientos ul li p{
+text-transform:capitalize;
+font-size:var(--font-32);
+color:var(--azul-celeste);
+}
