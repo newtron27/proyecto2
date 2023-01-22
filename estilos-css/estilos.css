@@ -135,6 +135,7 @@ font-style:italic;
 
 main{
 
+  display:flex;
 }
 
 .cont-Conocimientos{
