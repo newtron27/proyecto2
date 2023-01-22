@@ -134,13 +134,15 @@ font-style:italic;
 
 
 main{
-
-  display:flex;
+  width:70%;
+  border: 1px solid red;
+display:flex;
 }
 
 .cont-Conocimientos{
 
 width:500px;
+
 padding-left:0;
 }
 .cont-Conocimientos h2{
